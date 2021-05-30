@@ -1,0 +1,70 @@
+.adminInfoPage {
+  display: flex;
+  background-color:black;
+  /* /* flex-flow: row;* / */
+}
+
+.adminInfoPage__recipient {
+  /* / background-color: blueviolet; / */
+  display: flex;
+  flex-flow: column;
+  width: 100%;
+  height: 100%;
+  /* / flex: 0.7; / */
+}
+
+.AHbtn {
+  background-color: var( --admin-color) !important;
+  border: none !important;
+  border-radius: 50px !important;
+  width: 17%;
+  text-align: center;
+}
+
+.AHall-btn {
+  display: flex;
+  flex-flow: row;
+}
+
+.AHcontactgmainpage {
+  display: flex;
+  background-color: black;
+  /* / flex-flow: row; / */
+}
+
+.AHcontactdownPage {
+  background-color: black;
+  display: flex;
+  /* / flex-flow: column; */ 
+}
+
+.AHcontainer {
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  box-shadow: 0px 0px 20px blanchedalmond;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  color: blanchedalmond;
+}
+
+.AHform-group{
+  width: 80%;
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.AHform-group input,
+.AHform-group textarea {
+  width: 100%;
+  padding: 5px;
+  font-size: 18px;
+  border: 1px solid blanchedalmond;
+}
+
+.AHform {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+}

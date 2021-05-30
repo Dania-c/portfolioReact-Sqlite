@@ -1,0 +1,14 @@
+.categoryGalleryPage {
+  display: flex;
+  /* background-color: magenta; */
+  /* flex-flow: row; */
+  width:100%;
+}
+.categoryGalleryPage__recipient {
+  /* background-color: blueviolet; */
+  display: flex;
+  flex-flow: column;
+  width: 100%;
+  height: 100%;
+  /* flex: 0.7; */
+}

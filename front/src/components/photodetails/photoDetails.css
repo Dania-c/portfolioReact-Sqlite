@@ -1,0 +1,47 @@
+.containerInfo {
+  color: ghostwhite;
+  background-color: rgb(8, 1, 5);
+  display: inline-block;
+  width: 15cm;
+  height: 10cm;
+}
+.Head {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(8, 1, 5);
+  justify-content: space-between;
+  height: 50px;
+  padding-left: 30px;
+  padding-top: 0px;
+  padding-bottom: 8px;
+  margin-top: 0px;
+}
+.descriptionUrban {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 45px;
+  padding-right: 25px;
+  padding-left: 30px;
+  padding-bottom: 8px;
+  background-color: rgb(8, 1, 5);
+}
+#close {
+  padding-top: 10px;
+  padding-right: 10px;
+  width: 0.75cm;
+  height: 0.75cm;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#pic {
+  border: 5px;
+  width: 11cm;
+  height: 7cm;
+  margin-left: 30px;
+  background-color: darkgray;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+}

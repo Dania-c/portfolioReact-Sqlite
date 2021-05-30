@@ -1,0 +1,51 @@
+.sidebarOption {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  color: var(--admin-color);
+  width: 100%;
+}
+
+.sidebarOption:hover {
+  background-color: var(--admin-color);
+  /* border-radius: 30px; */
+  color: black; /*var(--admin-color-hover);*/
+  transition: color 100ms ease-out;
+}
+
+.sidebarOption > .MuiSvgIcon-root {
+  padding: 20px;
+}
+.sidebarOption > h2 {
+  font-weight: 500;
+  font-size: 20px;
+  margin-right: 20px;
+}
+
+.sidebarOption--active {
+  color: var(--admin-color-hover);
+}
+.sidebar__btn {
+  background-color: var(
+    --admin-color
+  ) !important; /* important is to overwrite materialUi stylings*/
+  border: none !important;
+  color: white !important;
+  font-weight: 900 !important;
+  text-transform: inherit !important; /* materialui make the font allcaps, inherit means let this attribute inherits from its parent, important to overwrite materiaui allcaps*/
+  border-radius: 30px !important;
+  height: 50px !important;
+  margin-top: 20px !important;
+}
+.sidebar {
+  border-right: 1px solid var(--admin-color);
+  /* width: 20%; */
+  flex: 0.3; /* 30% of the sceen*/
+  min-width: 250px;
+  margin-top: 1rem;
+  /* padding-left: 20px;
+  padding-right: 20px; */
+  padding-top: 10rem;
+  background-image: url(../../../assets/images/styling/sidebar-admin.jpg);
+  height: 100vh;
+}

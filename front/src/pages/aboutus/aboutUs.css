@@ -1,0 +1,29 @@
+.aboutmainpage {
+  display: flex;
+  background-color: black;
+}
+.aboutdownPage {
+  display: flex;
+  background-color: black;
+}
+
+.aboutUS {
+  display: flex;
+  flex-flow: row;
+}
+.p-us{
+  max-width:100%;
+  max-height:100%;
+  display: flex;
+  flex-flow: row;
+  align-items: left;
+  font-size: 20px;
+  background-color:black;
+}
+.img2 {
+  right: 16px;
+  width: 200px;
+  height: 200px;
+  border: white;
+  border-style: double;
+}

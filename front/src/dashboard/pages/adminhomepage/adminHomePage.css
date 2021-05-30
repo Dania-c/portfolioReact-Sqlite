@@ -1,0 +1,10 @@
+.adminHomePage {
+  display: flex;
+}
+.adminHomePage__rightPanel {
+  display: flex;
+  flex-direction: column;
+  /* flex: 0.7; */
+  height: 100%;
+  width: 100%;
+}

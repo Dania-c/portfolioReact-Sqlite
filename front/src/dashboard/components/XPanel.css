@@ -1,0 +1,31 @@
+.XPanel {
+  /* flex: 1; */
+  background-image: url("../../assets/images/styling/background2.jpg");
+  background-size: 100%;
+  /* min-width: fit-content; */
+  overflow-y: scroll;
+  /* hide the scoll for IE, Edge, Firefox*/
+  -ms-overflow-style: none;
+  /* scrollbar-width: none; */
+  height: 100vh;
+  width: 100%;
+}
+
+/* hide the scoll for safari,chrome,opera*/
+.XPanel::-webkit-scrollbar {
+  display: none;
+}
+
+.XPanel__header {
+  /* at 1:26:42  sticky doesn 't work twitter clone clever programmer*/
+  position: sticky; /* stay on top even if there is scrolling*/
+  top: 0;
+  z-index: 100;
+  border: 1px solid var(--admin-color);
+  padding: 15px 20px;
+}
+
+.XPanel__header > h2 {
+  font-size: 20px;
+  font-weight: 800;
+}

@@ -1,0 +1,40 @@
+.PhotoGalleryPage {
+  display: flex;
+  /* background-color: magenta; */
+  /* flex-flow: row; */
+}
+.PhotoGalleryPage__recipient {
+  /* background-color: blueviolet; */
+  display: flex;
+  flex-flow: column;
+  width: 100%;
+  height: 100%;
+  /* flex: 0.7; */
+}
+.recipientStandAlone {
+  /* background-color: chartreuse; */
+  display: flex;
+  flex-direction: column;
+}
+.recipientStandAlone__Top {
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgb(238, 211, 172);
+  border-radius: 3px;
+}
+.btn {
+  background-color: var(
+    --admin-color
+  ) !important; /* important is to overwrite materialUi stylings*/
+  border: none !important;
+  /* color: white !important; */
+  font-weight: 900 !important;
+  text-transform: inherit !important; /* materialui make the font allcaps, inherit means let this attribute inherits from its parent, important to overwrite materiaui allcaps*/
+  border-radius: 20px !important;
+  height: 50px !important;
+  margin-top: 20px !important;
+  width: 15%;
+}

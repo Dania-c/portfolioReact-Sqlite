@@ -1,0 +1,10 @@
+.categmainpage {
+  display: flex;
+  background-color: black;
+  /* flex-flow: row; */
+}
+.categdownPage {
+  background-color: black;
+  display: flex;
+  /* flex-flow: column; */
+}

@@ -1,0 +1,44 @@
+.image-list {
+  display: flex;
+  flex-wrap: wrap;
+  overflow-y: auto;
+  max-height: 425px;
+  justify-content: center;
+  /* background-origin: padding-box; */
+}
+.desc {
+  color: rgb(126, 71, 255);
+  /* background-color: tomato; */
+}
+.maindiv {
+  /* color: yellow; */
+  /* background-color: yellow; */
+}
+.image-list > div {
+  flex: 1 0 21%;
+  max-width: 24%;
+  margin: 5px;
+}
+
+.image-list > div img {
+  width: 100%;
+  height: auto;
+  /* border-color: tomato;
+  border-width: 20px;
+  border-image-outset: 5px; */
+}
+
+@media screen and (max-width: 800px) {
+  .image-list > div {
+    flex: 1 0 33.33%;
+    max-width: 35.33%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .image-list > div {
+    /* flex: 1 0 50%; */
+    flex: 100%;
+    max-width: 100%;
+  }
+}

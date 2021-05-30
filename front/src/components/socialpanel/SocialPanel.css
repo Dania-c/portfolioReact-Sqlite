@@ -1,0 +1,20 @@
+.socialPanel {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  cursor: pointer !important;
+  width: inherit;
+  color: var(--admin-color);
+  background-image: url(../../assets/images/styling/sidebar-admin.jpg);
+}
+.socialPanel__icon:hover {
+  background-color: #e8f5fe;
+  border-radius: 5px;
+  color: var(--admin-color-hover);
+  transition: color 100ms ease-out;
+}
+a {
+  text-decoration: none;
+  color: var(--admin-color);
+}

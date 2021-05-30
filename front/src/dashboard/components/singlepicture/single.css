@@ -1,0 +1,13 @@
+
+.card { 
+    margin: 10px 0 0;
+  } 
+  
+   .form-control {
+    padding: .375rem 0;
+    border: none;
+  }
+   
+  .preview img {
+    max-width: 100px;
+  } 

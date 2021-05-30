@@ -1,0 +1,100 @@
+.image1{
+  border: 1px white solid;
+  width: 110px; 
+  height: 110px; 
+  margin-left: 5%;
+  background-image: url('');
+}
+.PhotoDetailPage {
+  display: flex;
+  
+}
+.PhotoDetailPage__recipient {
+  display: flex;
+  flex-flow: column;
+  width: 100%;
+  height: 100%;
+}
+.PhotoDetailPage__recipient2 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+}
+.single_CheckBox{
+ padding: 5%; 
+ font-size: 1.3rem;
+}
+.PhotoDetailPage__CategList{
+  padding-top: 7%;
+  padding-left: 2%;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+   width: 20%;
+  height: 30em;
+  margin: 3%;
+  /* padding: 20px; */
+  box-shadow: 0px 0px 20px blanchedalmond;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  color: blanchedalmond;
+}
+.contactgmainpage {
+  display: flex;
+  background-color: black;
+}
+.contactdownPage {
+  background-color: black;
+  display: flex;
+}
+.generalContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+.photodetail {
+  padding-top: 7%;
+  padding-bottom: 5%;
+ color: ghostwhite;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  width: 90%;
+  margin: 0 auto;
+  padding: 20px;
+  box-shadow: 0px 0px 20px blanchedalmond;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  color: blanchedalmond;
+}
+.form-group {
+  width: 100%;
+  margin-top: 20px;
+  font-size: 1.2rem;
+}
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 5px;
+  font-size: 1.2rem;
+  border: 1px solid blanchedalmond;
+}
+.PhotoDetailPage_button{
+  text-align: center;
+  border: black 8px;
+}
+.cancelButton{
+  margin-right: 4%;
+  font-size: 100%;
+}
+.saveButton{
+  font-size:100%;
+}
+

@@ -1,0 +1,38 @@
+/* body {
+  margin: 0%;
+  padding: 0%;
+} */
+.mainpage {
+  display: flex;
+  background-color: black;
+  /* flex-flow: row; */
+}
+.downPage {
+  background-color: black;
+  display: flex;
+  /* flex-flow: column; */
+}
+
+.aboutUsPart {
+  padding: 70px;
+  margin: 50px;
+  width: 90%;
+  box-shadow: 0px 0px 20px blanchedalmond;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  background-color: rgb(26, 24, 24);
+  color: var(--admin-color);
+}
+.btn_homep {
+  background-color: var(
+    --admin-color
+  ) !important; /* important is to overwrite materialUi stylings*/
+  border: none !important;
+  /* color: white !important; */
+  font-weight: 900 !important;
+  text-transform: inherit !important; /* materialui make the font allcaps, inherit means let this attribute inherits from its parent, important to overwrite materiaui allcaps*/
+  border-radius: 30px !important;
+  height: 50px !important;
+  margin-top: 20px !important;
+  width: 150px;
+}

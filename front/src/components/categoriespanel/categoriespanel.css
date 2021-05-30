@@ -1,0 +1,9 @@
+img {
+  height: 50%;
+  width: 50%;
+  border:solid 5px rgb(248, 246, 246);
+}
+.nav {
+  height: 50%;
+  background-color:rgb(8, 1, 5);
+}

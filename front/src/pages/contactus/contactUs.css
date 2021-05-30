@@ -1,0 +1,50 @@
+.containerComponent{
+  display: inline-block;
+  align-items: center;
+  background-color: rgb(8, 1, 5);
+}
+
+.HgeneralContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content:left;
+  background-color: rgb(8, 1, 5);
+  width: 23cm;
+  height: 15cm;
+  /* padding-top: 90px; */
+  padding:1cm;
+  margin: 1cm;
+}
+
+.contactUs {
+  max-width: 400px;
+  padding: 20px;
+  box-shadow: 0px 0px 20px blanchedalmond;
+  border-radius: 8px;
+  color: blanchedalmond;
+  background-color:rgb(8, 1, 5);
+}
+.form-group {
+  width: 100%;
+  margin-top: 20px;
+  font-size: 20px;
+}
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 5px;
+  font-size: 18px;
+  border: 1px solid blanchedalmond;
+}
+.mapContainer{
+  max-width: 200px;
+  height:15cm;
+  background-color: rgb(8, 1, 5);
+  margin-left: 1cm;
+  display: inline-block;
+ 
+}
+p{
+  color: antiquewhite;
+  margin-left: 35px;
+}

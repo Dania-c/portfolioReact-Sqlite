@@ -1,0 +1,11 @@
+.headerAdmin {
+  background-color: var(--admin-background);
+  /* display: flex;
+  flex-direction: column; */
+  text-align: center;
+  color: var(--admin-color);
+  margin-top: 1rem;
+  width: 100%;
+  box-shadow: 0px 0px 10px rgb(228, 214, 193);
+  border-radius: 3px;
+}
